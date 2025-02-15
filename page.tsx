@@ -17,9 +17,9 @@ export default function Home() {
   }, [])
 
   const cards = [
-    { badge: "Web Dev", url: "motionweb.cz", bgColor: "from-blue-200 to-green-200", icon: Code },
-    { badge: "AI Dev", url: "vyvoj.ai", bgColor: "from-purple-200 to-pink-200", icon: Brain },
-    { badge: "Web App", url: "digitalnistavby.cz", bgColor: "from-yellow-200 to-red-200", icon: Building2 },
+    { badge: "Web Dev", url: "#", bgColor: "from-blue-200 to-green-200", icon: Code },
+    { badge: "AI Dev", url: "#", bgColor: "from-purple-200 to-pink-200", icon: Brain },
+    { badge: "Web App", url: "#", bgColor: "from-yellow-200 to-red-200", icon: Building2 },
   ]
 
   return (
