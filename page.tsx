@@ -17,9 +17,9 @@ export default function Home() {
   }, [])
 
   const cards = [
-    { badge: "Web Dev", url: "#", bgColor: "from-blue-200 to-green-200", icon: Code },
-    { badge: "AI Dev", url: "#", bgColor: "from-purple-200 to-pink-200", icon: Brain },
-    { badge: "Web App", url: "#", bgColor: "from-yellow-200 to-red-200", icon: Building2 },
+    { badge: "Web Dev", url: "motionweb.cz", bgColor: "from-blue-200 to-green-200", icon: Code },
+    { badge: "AI Dev", url: "vyvoj.ai", bgColor: "from-purple-200 to-pink-200", icon: Brain },
+    { badge: "Web App", url: "digitalnistavby.cz", bgColor: "from-yellow-200 to-red-200", icon: Building2 },
   ]
 
   return (
@@ -43,7 +43,7 @@ export default function Home() {
                 <card.icon className="w-6 h-6 text-gray-600" />
               </div>
               <a
-                href={`https://${card.url}`}
+                href={`#`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center text-sm font-mono text-gray-600 hover:text-blue-600 transition-colors mt-auto"
